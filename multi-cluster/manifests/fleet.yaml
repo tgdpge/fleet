@@ -27,4 +27,4 @@ targetCustomizations:
     # Refers to overlays/servicelb, scale3 folders
     overlays:
     # - servicelb
-    - scale3
+    - scale5
