@@ -17,7 +17,7 @@ targetCustomizations:
   yaml:
     overlays:
     # Refers to overlays/scale3 folder
-    - scale3
+    - prod1
 
 - name: prod-2
   clusterSelector:
@@ -27,4 +27,14 @@ targetCustomizations:
     # Refers to overlays/servicelb, scale3 folders
     overlays:
     # - servicelb
-    - scale5
+    - prod2
+
+- name: prod-3
+  clusterSelector:
+    matchLabels:
+      env: prod-3
+  yaml:
+    # Refers to overlays/servicelb, scale3 folders
+    overlays:
+    # - servicelb
+    - prod3
