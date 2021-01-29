@@ -1,9 +1,18 @@
 # fleet
-Testando Fleet.io
+
+
+Esse repositório pertence ao meu curso na Udemy:
+
+http://udemy.com/course/devops-mao-na-massa-docker-kubernetes-rancher/
+
+
+que também usa outro repositório como base:
+
+http://github.com/jonathanbaraldi/devops
 
 
 
-Criar o Workspace.
-COlocar os clsuters no workspapce -  colocando o label certo.
+Acesse meu canal no youtube, onde estou sempre postando conteúdo atualizado sobre devops.
 
+http://youtube.com/jonathanbaraldi
 
