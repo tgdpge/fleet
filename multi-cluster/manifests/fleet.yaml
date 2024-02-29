@@ -10,31 +10,11 @@ targetCustomizations:
 #    # Refers to overlays/noreplication folder
 #    - noreplication
 
-- name: prod-1
+- name: stage
   clusterSelector:
     matchLabels:
-      env: prod-1
+      env: stage
   yaml:
     overlays:
     # Refers to overlays/scale3 folder
-    - prod1
-
-- name: prod-2
-  clusterSelector:
-    matchLabels:
-      env: prod-2
-  yaml:
-    # Refers to overlays/servicelb, scale3 folders
-    overlays:
-    # - servicelb
-    - prod2
-
-- name: prod-3
-  clusterSelector:
-    matchLabels:
-      env: prod-3
-  yaml:
-    # Refers to overlays/servicelb, scale3 folders
-    overlays:
-    # - servicelb
-    - prod3
+    - stage
